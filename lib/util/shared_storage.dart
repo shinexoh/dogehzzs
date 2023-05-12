@@ -24,10 +24,7 @@ class SharedStorage {
   static Future<bool> fileExist(String fileName) async {
     final file = await findFile(UriConfig.mainUri, fileName);
 
-    if (file != null) {
-      return true;
-    }
-    return false;
+    return file != null ? true : false;
   }
 
   ///读取指定文件的内容（需要先判断文件是否存在，防止崩溃）
