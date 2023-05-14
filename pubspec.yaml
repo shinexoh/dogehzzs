@@ -32,22 +32,22 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-  dio: ^5.1.1
+  dio: ^5.1.2
   get: ^4.6.5
-  shared_preferences: ^2.1.0
+  shared_preferences: ^2.1.1
   card_swiper: ^2.0.4
   oktoast: ^3.3.1
   permission_handler: ^10.2.0
-  device_info_plus: ^8.2.0
-  battery_plus: ^3.0.4
-  share_plus: ^6.3.2
+  device_info_plus: ^9.0.0
+  battery_plus: ^4.0.0
+  share_plus: ^7.0.0
   shared_storage: ^0.7.1
   custom_navigation_bar: ^0.8.2
   device_apps: ^2.2.0
-  android_intent_plus: ^3.1.7
+  android_intent_plus: ^4.0.0
   flutter_custom_clippers: ^2.1.0
   webview_flutter: ^4.2.0
-  connectivity_plus: ^3.0.4
+  connectivity_plus: ^4.0.0
   transparent_image: ^2.0.1
 
 dev_dependencies:
