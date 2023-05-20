@@ -23,7 +23,7 @@ class _TaskPageState extends State<TaskPage> {
   }
 
   void getTaskList() async {
-    final taskListData = await HttpClient.getInstance().get(Api.main);
+    final taskListData = await HttpClient.get(Api.main);
 
     if (taskListData.isOk) {
       for (var element in taskListData.data['tasklist']) {

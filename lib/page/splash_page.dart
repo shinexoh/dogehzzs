@@ -65,7 +65,7 @@ class _SplashPageState extends State<SplashPage> {
     final connectivity = await Connectivity().checkConnectivity();
 
     if (connectivity != ConnectivityResult.none) {
-      final http = await HttpClient.getInstance().get('https://www.baidu.com/');
+      final http = await HttpClient.get('https://www.baidu.com/');
 
       if (http.isOk) {
         await Future.delayed(const Duration(seconds: 1));

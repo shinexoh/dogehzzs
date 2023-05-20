@@ -6,7 +6,7 @@ import '../util/util.dart';
 class HttpClient {
   static HttpClient? _instance;
 
-  late Dio _dio;
+  static late Dio _dio;
 
   HttpClient._() {
     _dio = Dio(BaseOptions(
@@ -16,7 +16,7 @@ class HttpClient {
 
   static HttpClient getInstance() => _instance ??= HttpClient._();
 
-  Future<HttpData> get(String url) async {
+  static Future<HttpData> get(String url) async {
     prints('开始请求：$url');
     Response response;
     try {

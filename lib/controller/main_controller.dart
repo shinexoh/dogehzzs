@@ -43,7 +43,7 @@ class MainController extends GetxController {
 
   //检查应用更新
   void checkAppUpdate() async {
-    final update = await HttpClient.getInstance().get(Api.appUpdate);
+    final update = await HttpClient.get(Api.appUpdate);
 
     if (update.isOk && update.data['version'] > BaseConfig.updateVersion) {
       Get.dialog(
