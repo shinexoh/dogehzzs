@@ -21,6 +21,6 @@
     • Flutter download mirror https://storage.flutter-io.cn
 
 ## 其他
-成品下载地址 [Releases](https://github.com/Shinextop/dogehzzs/releases)
+成品下载地址 [Releases](https://github.com/shinexoh/dogehzzs/releases)
 
-需要的功能基本完成了，以后应该也不会更新新功能了，有问题请发 [Issues](https://github.com/Shinextop/dogehzzs/issues)
+需要的功能基本完成了，以后应该也不会更新新功能了，有问题请发 [Issues](https://github.com/shinexoh/dogehzzs/issues)
