@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:oktoast/oktoast.dart';
 import 'package:get/get.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 import './page/splash_page.dart';
 import './page/main_page.dart';
@@ -54,6 +55,12 @@ class MyApp extends StatelessWidget {
             GetPage(name: '/gdj', page: () => const GdjPage()),
           ],
           defaultTransition: Transition.cupertino,
+          localizationsDelegates: const [
+            GlobalMaterialLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate
+          ],
+          supportedLocales: const [Locale('zh', 'CN')],
           //限制字体大小跟随系统变化
           builder: (context, child) {
             return MediaQuery(
