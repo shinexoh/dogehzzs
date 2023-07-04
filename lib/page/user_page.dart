@@ -68,19 +68,19 @@ class UserPage extends StatelessWidget {
       height: 55,
       margin: const EdgeInsets.only(top: 10),
       onTap: onTask,
-      child: Padding(
-        padding: const EdgeInsets.only(left: 20, right: 20),
+      child: const Padding(
+        padding: EdgeInsets.only(left: 20, right: 20),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Row(
-              children: const [
+              children: [
                 Icon(Icons.token_outlined, color: Colors.green, size: 30),
                 SizedBox(width: 20),
                 Text('任务大厅', style: TextStyle(fontSize: 16)),
               ],
             ),
-            const Icon(Icons.chevron_right, color: Colors.grey),
+            Icon(Icons.chevron_right, color: Colors.grey),
           ],
         ),
       ),
@@ -92,19 +92,19 @@ class UserPage extends StatelessWidget {
       width: double.infinity,
       height: 55,
       onTap: onHelp,
-      child: Padding(
-        padding: const EdgeInsets.only(left: 20, right: 20),
+      child: const Padding(
+        padding: EdgeInsets.only(left: 20, right: 20),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Row(
-              children: const [
+              children: [
                 Icon(Icons.help_outline, color: Colors.green, size: 30),
                 SizedBox(width: 20),
                 Text('使用帮助', style: TextStyle(fontSize: 16)),
               ],
             ),
-            const Icon(Icons.chevron_right, color: Colors.grey),
+            Icon(Icons.chevron_right, color: Colors.grey),
           ],
         ),
       ),
@@ -116,19 +116,19 @@ class UserPage extends StatelessWidget {
       width: double.infinity,
       height: 55,
       onTap: onQQ,
-      child: Padding(
-        padding: const EdgeInsets.only(left: 20, right: 20),
+      child: const Padding(
+        padding: EdgeInsets.only(left: 20, right: 20),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Row(
-              children: const [
+              children: [
                 Icon(Icons.person_outline, color: Colors.green, size: 30),
                 SizedBox(width: 20),
                 Text('联系作者', style: TextStyle(fontSize: 16)),
               ],
             ),
-            const Icon(Icons.chevron_right, color: Colors.grey),
+            Icon(Icons.chevron_right, color: Colors.grey),
           ],
         ),
       ),
@@ -140,20 +140,20 @@ class UserPage extends StatelessWidget {
       width: double.infinity,
       height: 55,
       onTap: onGroup,
-      child: Padding(
-        padding: const EdgeInsets.only(left: 20, right: 20),
+      child: const Padding(
+        padding: EdgeInsets.only(left: 20, right: 20),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Row(
-              children: const [
+              children: [
                 Icon(Icons.supervised_user_circle_outlined,
                     color: Colors.green, size: 30),
                 SizedBox(width: 20),
                 Text('加入群聊', style: TextStyle(fontSize: 16)),
               ],
             ),
-            const Icon(Icons.chevron_right, color: Colors.grey),
+            Icon(Icons.chevron_right, color: Colors.grey),
           ],
         ),
       ),
@@ -165,19 +165,19 @@ class UserPage extends StatelessWidget {
       width: double.infinity,
       height: 55,
       onTap: onAbout,
-      child: Padding(
-        padding: const EdgeInsets.only(left: 20, right: 20),
+      child: const Padding(
+        padding: EdgeInsets.only(left: 20, right: 20),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Row(
-              children: const [
+              children: [
                 Icon(Icons.info_outline, color: Colors.green, size: 30),
                 SizedBox(width: 20),
                 Text('关于应用', style: TextStyle(fontSize: 16)),
               ],
             ),
-            const Icon(Icons.chevron_right, color: Colors.grey),
+            Icon(Icons.chevron_right, color: Colors.grey),
           ],
         ),
       ),
@@ -189,19 +189,19 @@ class UserPage extends StatelessWidget {
       width: double.infinity,
       height: 55,
       onTap: onExit,
-      child: Padding(
-        padding: const EdgeInsets.only(left: 20, right: 20),
+      child: const Padding(
+        padding: EdgeInsets.only(left: 20, right: 20),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Row(
-              children: const [
+              children: [
                 Icon(Icons.exit_to_app_outlined, color: Colors.green, size: 30),
                 SizedBox(width: 20),
                 Text('退出应用', style: TextStyle(fontSize: 16)),
               ],
             ),
-            const Icon(Icons.chevron_right, color: Colors.grey),
+            Icon(Icons.chevron_right, color: Colors.grey),
           ],
         ),
       ),
