@@ -71,7 +71,6 @@ class _WebPageState extends State<WebPage> {
 
   Widget optionBar() {
     return PopupMenuButton(
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       tooltip: '更多选项',
       itemBuilder: (context) {
         return [
