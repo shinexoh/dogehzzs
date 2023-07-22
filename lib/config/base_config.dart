@@ -1,9 +1,9 @@
 class BaseConfig {
   ///应用主要版本号
-  static const String appMainVersion = '1.0.4';
+  static const String appMainVersion = '1.0.5';
 
   ///更新版本号
-  static const int updateVersion = 5;
+  static const int updateVersion = 6;
 
   ///查询任务Key
   static const String taskKey = 'taskkey';
