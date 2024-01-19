@@ -64,7 +64,9 @@ class MyApp extends StatelessWidget {
           //限制字体大小跟随系统变化
           builder: (context, child) {
             return MediaQuery(
-                data: MediaQuery.of(context).copyWith(textScaleFactor: 1.0),
+                data: MediaQuery.of(context).copyWith(
+                  textScaler: TextScaler.noScaling,
+                ),
                 child: child!);
           }),
     );

@@ -60,10 +60,10 @@ class AppDialog {
   ///网络错误弹窗
   static void netErrorDialog() {
     Get.dialog(
-      WillPopScope(
-          onWillPop: () async {
-            SystemNavigator.pop();
-            return true;
+      PopScope(
+          canPop: false,
+          onPopInvoked: (didPop) {
+            if (!didPop) SystemNavigator.pop();
           },
           child: AlertDialog(
               title: const Text('网络错误'),

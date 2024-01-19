@@ -48,10 +48,10 @@ class MainController extends GetxController {
     if (update.isOk && update.data['version'] > BaseConfig.updateVersion) {
       Get.dialog(
         barrierDismissible: false,
-        WillPopScope(
-          onWillPop: () async {
-            SystemNavigator.pop();
-            return true;
+        PopScope(
+          canPop: false,
+          onPopInvoked: (didPop) {
+            if (!didPop) SystemNavigator.pop();
           },
           child: AlertDialog(
             title: Text(update.data['title']),
