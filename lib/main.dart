@@ -32,6 +32,7 @@ class MyApp extends StatelessWidget {
           title: 'Doge画质助手',
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
+              useMaterial3: false,
               primarySwatch: Colors.green,
               scaffoldBackgroundColor: Colors.grey.shade100,
               appBarTheme: const AppBarTheme(
