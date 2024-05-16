@@ -32,12 +32,12 @@ class DeviceInfo {
   static String get sdkVersion => _androidDeviceInfo.version.sdkInt.toString();
 
   ///屏幕高度
-  static String get screenHeight =>
-      _androidDeviceInfo.displayMetrics.heightPx.toInt().toString();
+  // static String get screenHeight =>
+  //     _androidDeviceInfo.displayMetrics.heightPx.toInt().toString();
 
-  ///屏幕宽度
-  static String get screenWidth =>
-      _androidDeviceInfo.displayMetrics.widthPx.toInt().toString();
+  // ///屏幕宽度
+  // static String get screenWidth =>
+  //     _androidDeviceInfo.displayMetrics.widthPx.toInt().toString();
 
   ///获取当前电量值
   static int get batteryLevel => _batteryLevel;

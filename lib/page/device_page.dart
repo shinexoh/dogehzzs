@@ -32,7 +32,7 @@ class _DevicePageState extends State<DevicePage> {
     model = DeviceInfo.model;
     androidVersion = DeviceInfo.androidVersion;
     sdkVersion = DeviceInfo.sdkVersion;
-    res = '${DeviceInfo.screenHeight}×${DeviceInfo.screenWidth}';
+    res = '1920×1080';
     cpu = DeviceInfo.cpu;
     battery = DeviceInfo.batteryLevel;
 
